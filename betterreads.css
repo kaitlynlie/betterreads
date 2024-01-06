@@ -101,3 +101,9 @@ footer {
 .covers img {
     -webkit-box-shadow: none !important;
 }
+
+/* PROFILE PAGE */
+
+.infoBoxRowItem, .yyibLinks, .mediumText, .bigBoxBody {
+    color: black !important;
+}
