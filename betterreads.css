@@ -82,3 +82,22 @@ footer {
 .recommendationsWidget a {
     color: white !important;
 }
+
+/* MY BOOKS PAGE */
+
+.mainContent, .mainContentFloat {
+    border-radius: 20px;
+    background: rgb(192, 172, 156) !important;
+}
+
+.noticeBox {
+    display: none !important;
+}
+
+.mainContentFloat a, .myBooksPage {
+    color: black !important;
+}
+
+.covers img {
+    -webkit-box-shadow: none !important;
+}
