@@ -1,0 +1,57 @@
+body {
+    background-color: #3b3734 !important;
+    color: #ffffff !important;
+}
+
+.siteHeader__topFullImageContainer a {
+    display: none;
+  }
+
+.gr-h3, .gr-book__author, .gr-book__titleLink, .gr-book__authorLink, .gr-newsfeed__title .gr-buttonAsLink {
+    color:#ffffff !important;
+}
+
+.homeSecondaryColumn a, h3 {
+    color: #ffffff !important;
+}
+
+.gr-buttonAsLink {
+    color: #ffffff !important;
+}
+
+.readingChallenge h3 {
+    color: #ffffff;
+}
+
+.badgeYear {
+    background-color: rgb(120, 94, 74) !important;
+}
+
+.gr-button--quiet, .gr-button {
+    color: rgb(120, 94, 74) !important;
+    border: 1px solid rgb(120, 94, 74) !important;
+}
+
+.siteHeader__topLine {
+    background:rgb(110, 110, 110) !important;
+}
+
+.choiceWidget {
+    display: none;
+}
+
+.gr-editorialBlogPost {
+    display: none;
+}
+
+.siteAnnouncement {
+    display: none;
+}
+
+.siteAnnouncement__body {
+    display: none;
+}
+
+.siteAnnouncement__masthead {
+    display: none;
+}

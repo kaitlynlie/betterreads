@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "betterreads",
+    "version": "1.0",
+    "description": "UI changes for GoodReads to make it easier on the eyes",
+    "permissions": ["http://www.goodreads.com/*", "https://www.goodreads.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["http://www.goodreads.com/*", "https://www.goodreads.com/*"],
+        "js": ["betterreads.js"],
+        "css": ["betterreads.css"]
+      }
+    ]
+  }
