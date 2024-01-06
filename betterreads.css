@@ -107,3 +107,27 @@ footer {
 .infoBoxRowItem, .yyibLinks, .mediumText, .bigBoxBody {
     color: black !important;
 }
+
+/* BOOK PAGE */
+
+.SiteHeaderBanner {
+    display: none;
+}
+
+.Header__siteHeaderBanner {
+    height: 5rem !important;
+    background:rgb(110, 110, 110) !important;
+}
+
+.BookPage__mainContent, .PageFrame__main, .ReviewsSection, .DynamicCarousel__itemsArea, .BookPage h3, .BookPage span, .BookPage h1, .BookPage h2, .BookPage h4, .BookPage p, .BookPage div {
+    color: white !important;
+}
+
+.TruncatedContent__gradientOverlay {
+    background: transparent !important;
+}
+
+.HelpCard {
+    display: none !important;
+}
+
