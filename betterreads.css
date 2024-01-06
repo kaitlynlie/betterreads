@@ -3,24 +3,32 @@ body {
     color: #ffffff !important;
 }
 
-.siteHeader__topFullImageContainer a {
+/* header */
+
+.siteHeader__topLine {
+    background:rgb(110, 110, 110) !important;
+}
+
+.siteAnnouncement, .siteAnnouncement__body, .siteAnnouncement__masthead, .siteHeader__topFullImageContainer a {
     display: none;
-  }
+}
 
-.gr-h3, .gr-book__author, .gr-book__titleLink, .gr-book__authorLink, .gr-newsfeed__title .gr-buttonAsLink {
+.siteHeader__topLevelItem a {
+    color: white !important;
+}
+
+.siteHeader__subNavLink span{
+    color: #333333 !important;
+}
+
+.genreList__genre span, .genreList__genre a, .siteHeader__heading span, .siteHeader__subNav a {
+    color: black !important;
+}
+
+/* left column */
+
+.gr-h3, .gr-book__author, .gr-newsfeed__title, .homeSecondaryColumn a, .homeSecondaryColumn h3, .homeSecondaryColumn span, .gr-buttonAsLink, .readingChallenge h3 {
     color:#ffffff !important;
-}
-
-.homeSecondaryColumn a, h3 {
-    color: #ffffff !important;
-}
-
-.gr-buttonAsLink {
-    color: #ffffff !important;
-}
-
-.readingChallenge h3 {
-    color: #ffffff;
 }
 
 .badgeYear {
@@ -28,30 +36,49 @@ body {
 }
 
 .gr-button--quiet, .gr-button {
-    color: rgb(120, 94, 74) !important;
-    border: 1px solid rgb(120, 94, 74) !important;
+    color: white !important;
+    border: 1px solid rgb(147, 119, 98) !important;
+    background-color: rgb(147, 119, 98) !important;
+    ;
 }
 
-.siteHeader__topLine {
-    background:rgb(110, 110, 110) !important;
+/* middle feed */
+
+.gr-newsfeedItem {
+    background-color: rgb(192, 172, 156) !important;
+    border: none !important;
+    border-radius: 9px !important;
 }
 
-.choiceWidget {
+.gr-newsfeedItem span, .gr-newsfeedItem a, .gr-newsfeedItem__footerActions button  {
+    color: black !important;
+}
+
+.gr-commentForm {
+    background-color: transparent !important;
+    border-top: none !important;
+}
+
+/* right feed */
+
+.gr-homePageRailContainer {
+    border-bottom: none !important;
+    margin-bottom: 12px !important;
+    padding-bottom: 0px !important;
+}
+
+.choiceWidget, .gr-editorialBlogPost {
     display: none;
 }
 
-.gr-editorialBlogPost {
-    display: none;
+.homeTertiaryColumn {
+    margin-top: 0px !important;
 }
 
-.siteAnnouncement {
-    display: none;
+footer {
+    display: none !important;
 }
 
-.siteAnnouncement__body {
-    display: none;
-}
-
-.siteAnnouncement__masthead {
-    display: none;
+.recommendationsWidget a {
+    color: white !important;
 }
